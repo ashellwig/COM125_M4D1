@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang='en' xml:lang='en'>
+
+<head>
+  <title>M4D1: Communicating Without Words </title>
+  <meta charset='utf-8' />
+  <meta name='generator' content='TeX4ht (https://tug.org/tex4ht/)' />
+  <meta name='viewport' content='width=device-width,initial-scale=1' />
+  <style>
+    /* start css.sty */
+    .ptmb8t-x-x-120 {
+      font-weight: bold;
+    }
+
+    .ptmri8t-x-x-120 {
+      font-style: italic;
+    }
+
+    p {
+      margin-top: 0;
+      margin-bottom: 0
+    }
+
+    p.indent {
+      text-indent: 0;
+    }
+
+    p+p {
+      margin-top: 1em;
+    }
+
+    p+div,
+    p+pre {
+      margin-top: 1em;
+    }
+
+    div+p,
+    pre+p {
+      margin-top: 1em;
+    }
+
+    a {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      word-break: break-word;
+      hyphens: auto;
+    }
+
+    @media print {
+      div.crosslinks {
+        visibility: hidden;
+      }
+    }
+
+    a img {
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+    }
+
+    center {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    td center {
+      margin-top: 0em;
+      margin-bottom: 0em;
+    }
+
+    .Canvas {
+      position: relative;
+    }
+
+    img.math {
+      vertical-align: middle;
+    }
+
+    li p.indent {
+      text-indent: 0em
+    }
+
+    li p:first-child {
+      margin-top: 0em;
+    }
+
+    li p:last-child,
+    li div:last-child {
+      margin-bottom: 0.5em;
+    }
+
+    li p~ul:last-child,
+    li p~ol:last-child {
+      margin-bottom: 0.5em;
+    }
+
+    .enumerate1 {
+      list-style-type: decimal;
+    }
+
+    .enumerate2 {
+      list-style-type: lower-alpha;
+    }
+
+    .enumerate3 {
+      list-style-type: lower-roman;
+    }
+
+    .enumerate4 {
+      list-style-type: upper-alpha;
+    }
+
+    div.newtheorem {
+      margin-bottom: 2em;
+      margin-top: 2em;
+    }
+
+    .obeylines-h,
+    .obeylines-v {
+      white-space: nowrap;
+    }
+
+    div.obeylines-v p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    .overline {
+      text-decoration: overline;
+    }
+
+    .overline img {
+      border-top: 1px solid black;
+    }
+
+    td.displaylines {
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .centerline {
+      text-align: center;
+    }
+
+    .rightline {
+      text-align: right;
+    }
+
+    pre.verbatim {
+      font-family: monospace, monospace;
+      text-align: left;
+      clear: both;
+    }
+
+    .fbox {
+      padding-left: 3.0pt;
+      padding-right: 3.0pt;
+      text-indent: 0pt;
+      border: solid black 0.4pt;
+    }
+
+    div.fbox {
+      display: table
+    }
+
+    div.center div.fbox {
+      text-align: center;
+      clear: both;
+      padding-left: 3.0pt;
+      padding-right: 3.0pt;
+      text-indent: 0pt;
+      border: solid black 0.4pt;
+    }
+
+    div.minipage {
+      width: 100%;
+    }
+
+    div.center,
+    div.center div.center {
+      text-align: center;
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+
+    div.center div {
+      text-align: left;
+    }
+
+    div.flushright,
+    div.flushright div.flushright {
+      text-align: right;
+    }
+
+    div.flushright div {
+      text-align: left;
+    }
+
+    div.flushleft {
+      text-align: left;
+    }
+
+    .underline {
+      text-decoration: underline;
+    }
+
+    .underline img {
+      border-bottom: 1px solid black;
+      margin-bottom: 1pt;
+    }
+
+    .framebox-c,
+    .framebox-l,
+    .framebox-r {
+      padding-left: 3.0pt;
+      padding-right: 3.0pt;
+      text-indent: 0pt;
+      border: solid black 0.4pt;
+    }
+
+    .framebox-c {
+      text-align: center;
+    }
+
+    .framebox-l {
+      text-align: left;
+    }
+
+    .framebox-r {
+      text-align: right;
+    }
+
+    span.thank-mark {
+      vertical-align: super
+    }
+
+    span.footnote-mark sup.textsuperscript,
+    span.footnote-mark a sup.textsuperscript {
+      font-size: 80%;
+    }
+
+    div.tabular,
+    div.center div.tabular {
+      text-align: center;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    table.tabular td p {
+      margin-top: 0em;
+    }
+
+    table.tabular {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    td p:first-child {
+      margin-top: 0em;
+    }
+
+    td p:last-child {
+      margin-bottom: 0em;
+    }
+
+    div.td00 {
+      margin-left: 0pt;
+      margin-right: 0pt;
+    }
+
+    div.td01 {
+      margin-left: 0pt;
+      margin-right: 5pt;
+    }
+
+    div.td10 {
+      margin-left: 5pt;
+      margin-right: 0pt;
+    }
+
+    div.td11 {
+      margin-left: 5pt;
+      margin-right: 5pt;
+    }
+
+    table[rules] {
+      border-left: solid black 0.4pt;
+      border-right: solid black 0.4pt;
+    }
+
+    td.td00 {
+      padding-left: 0pt;
+      padding-right: 0pt;
+    }
+
+    td.td01 {
+      padding-left: 0pt;
+      padding-right: 5pt;
+    }
+
+    td.td10 {
+      padding-left: 5pt;
+      padding-right: 0pt;
+    }
+
+    td.td11 {
+      padding-left: 5pt;
+      padding-right: 5pt;
+    }
+
+    table[rules] {
+      border-left: solid black 0.4pt;
+      border-right: solid black 0.4pt;
+    }
+
+    .hline hr,
+    .cline hr {
+      height: 0px;
+      margin: 0px;
+    }
+
+    .hline td,
+    .cline td {
+      padding: 0;
+    }
+
+    .hline hr,
+    .cline hr {
+      border: none;
+      border-top: 1px solid black;
+    }
+
+    .tabbing-right {
+      text-align: right;
+    }
+
+    div.float,
+    div.figure {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    div.float img {
+      text-align: center;
+    }
+
+    div.figure img {
+      text-align: center;
+    }
+
+    .marginpar,
+    .reversemarginpar {
+      width: 20%;
+      float: right;
+      text-align: left;
+      margin-left: auto;
+      margin-top: 0.5em;
+      font-size: 85%;
+      text-decoration: underline;
+    }
+
+    .marginpar p,
+    .reversemarginpar p {
+      margin-top: 0.4em;
+      margin-bottom: 0.4em;
+    }
+
+    .reversemarginpar {
+      float: left;
+    }
+
+    table.equation {
+      width: 100%;
+    }
+
+    .equation td {
+      text-align: center;
+    }
+
+    td.equation {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    td.equation-label {
+      width: 5%;
+      text-align: center;
+    }
+
+    td.eqnarray4 {
+      width: 5%;
+      white-space: normal;
+    }
+
+    td.eqnarray2 {
+      width: 5%;
+    }
+
+    table.eqnarray-star,
+    table.eqnarray {
+      width: 100%;
+    }
+
+    div.eqnarray {
+      text-align: center;
+    }
+
+    div.array {
+      text-align: center;
+    }
+
+    div.pmatrix {
+      text-align: center;
+    }
+
+    table.pmatrix {
+      width: 100%;
+    }
+
+    span.pmatrix img {
+      vertical-align: middle;
+    }
+
+    div.pmatrix {
+      text-align: center;
+    }
+
+    table.pmatrix {
+      width: 100%;
+    }
+
+    span.bar-css {
+      text-decoration: overline;
+    }
+
+    table.tabular {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }
+
+    img.cdots {
+      vertical-align: middle;
+    }
+
+    .partToc a,
+    .partToc,
+    .likepartToc a,
+    .likepartToc {
+      line-height: 200%;
+      font-weight: bold;
+      font-size: 110%;
+    }
+
+    .index-item,
+    .index-subitem,
+    .index-subsubitem {
+      display: block
+    }
+
+    div.caption {
+      text-indent: -2em;
+      margin-left: 3em;
+      margin-right: 1em;
+      text-align: left;
+    }
+
+    div.caption span.id {
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    h1.partHead {
+      text-align: center
+    }
+
+    p.bibitem {
+      text-indent: -2em;
+      margin-left: 2em;
+      margin-top: 0.6em;
+      margin-bottom: 0.6em;
+    }
+
+    p.bibitem-p {
+      text-indent: 0em;
+      margin-left: 2em;
+      margin-top: 0.6em;
+      margin-bottom: 0.6em;
+    }
+
+    .paragraphHead,
+    .likeparagraphHead {
+      margin-top: 2em;
+      font-weight: bold;
+    }
+
+    .subparagraphHead,
+    .likesubparagraphHead {
+      font-weight: bold;
+    }
+
+    .quote {
+      margin-bottom: 0.25em;
+      margin-top: 0.25em;
+      margin-left: 1em;
+      margin-right: 1em;
+      text-align: justify;
+    }
+
+    .verse {
+      white-space: nowrap;
+      margin-left: 2em
+    }
+
+    div.maketitle {
+      text-align: center;
+    }
+
+    h2.titleHead {
+      text-align: center;
+    }
+
+    div.maketitle {
+      margin-bottom: 2em;
+    }
+
+    div.author,
+    div.date {
+      text-align: center;
+    }
+
+    div.thanks {
+      text-align: left;
+      margin-left: 10%;
+      font-size: 85%;
+      font-style: italic;
+    }
+
+    div.author {
+      white-space: nowrap;
+    }
+
+    .quotation {
+      margin-bottom: 0.25em;
+      margin-top: 0.25em;
+      margin-left: 1em;
+    }
+
+    .abstract p {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+    div.abstract {
+      width: 100%;
+    }
+
+    figure.float,
+    div.figure {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    figure.float img,
+    figure.figure img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    figure.figure>p {
+      text-align: center;
+    }
+
+    figcaption.caption {
+      text-indent: -2em;
+      margin-left: 3em;
+      margin-right: 1em;
+      text-align: center;
+    }
+
+    figcaption.caption span.id {
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    .rotatebox {
+      display: inline-block;
+    }
+
+    dt.enumerate-enumitem {
+      float: left;
+      clear: left;
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+
+    span.textso {
+      letter-spacing: 0.3em;
+      word-spacing: 0.3em
+    }
+
+    span.textul {
+      text-decoration: underline
+    }
+
+    span.textst {
+      text-decoration: line-through
+    }
+
+    span.textcaps {
+      font-variant: small-caps
+    }
+
+    .mdframed {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    dt.printshorthands {
+      float: left;
+      clear: left;
+      margin-right: 1em;
+    }
+
+    /* end css.sty */
+  </style>
+  <meta name='src' content='main.tex' />
+</head>
+
+<body>
+  <div class='maketitle'>
+    <h2 class='titleHead'>M4D1: Communicating Without Words </h2><br />
+    Ashton Hellwig<br />
+    Department of Mathematics<br />
+    Front Range Community College<br />
+    COM125: Interpersonal Communication<br />
+    Richard Thomas<br />
+    November 28, 2020 23:59:59 MDT<br />
+
+
+    <h3 class='sectionHead'><a id='x1-1000'></a><span class='ptmb8t-x-x-120'>Abstract</span></h3>
+    <span class='ptmb8t-x-x-120'>Overview</span>
+    Just like countries have diﬀerent languages, our nonverbal communication may not equate to the same
+    meaning. For example, the thumbs up gesture means “good job” in the United States. But in the
+    Middle East, it’s the equivalent of an insult! That’s a signiﬁcant diﬀerence in meaning that could lead
+    to huge misunderstandings.
+    For this discussion, you will research nonverbal communication in another country’s culture (outside
+    of the United States) and compare and contrast nonverbal communication in the country you selected
+    with your home country’s culture.
+    As we saw in the movie clip appearing within the topic titled, “The Theme” and in the TED Talk
+    titled, “The Importance of Listening”, our body language often communicates messages in addition to
+    our verbal communication. Reﬂect for a few moments on how your body language messages might be
+    received by people from a diﬀerent culture who do not understand the intended meaning of your
+    nonverbal communication.
+    You should spend approximately 4 hours on this assignment.
+    <img height='43' src='./res/img/instructions_travelagency.jpg' alt='PIC' width='43' />
+
+
+    <h3 class='sectionHead'><a id='x1-2000'></a>
+      <h2 class='titleHead'>M4D1: Communicating Without Words </h2>
+    </h3>
+  </div>
+  <!-- l. 110 -->
+  <p class='noindent'>
+  </p>
+  <h3 class='sectionHead'><a id='x1-3000'></a>Initial Post</h3>
+  <!-- l. 111 -->
+  <p class='noindent'>
+  </p>
+  <h4 class='likesubsectionHead'><a id='x1-4000'></a>Instructions</h4>
+  <!-- l. 113 -->
+  <p class='noindent'>
+  </p>
+  <dl class='enumerate-enumitem'>
+    <dt class='enumerate-enumitem'>
+      1. </dt>
+    <dd class='enumerate-enumitem'>
+      Be
+      sure
+      you
+      have
+      completed
+      your
+      readings
+      and
+      explored
+      all
+      the
+      materials,
+      including
+
+
+      videos,
+      in
+      the
+      Exploration
+      page
+      accessible
+      within
+      the
+      “Read/View”
+      topic
+      of
+      Module
+      4
+      Content.
+    </dd>
+    <dt class='enumerate-enumitem'>
+      2. </dt>
+    <dd class='enumerate-enumitem'>
+      Research
+      the
+      culture
+      of
+      another
+      country
+      with
+      which
+      you
+      are
+      either
+      familiar
+
+
+      or
+      unfamiliar.
+    </dd>
+    <dt class='enumerate-enumitem'>
+      3. </dt>
+    <dd class='enumerate-enumitem'>
+      In
+      your
+      research,
+      focus
+      on
+      nonverbal
+      communication.
+      Speciﬁcally,
+      consider
+      gestures,
+      facial
+      expressions,
+      and
+      proximity
+      (i.e.,
+      how
+      close
+      people
+      stand
+      to
+      each
+      other).
+      In
+      addition,
+
+
+      research
+      whether
+      nonverbal
+      communication
+      is
+      diﬀerent
+      between
+      genders
+      in
+      the
+      culture
+      you
+      have
+      selected.
+    </dd>
+    <dt class='enumerate-enumitem'>
+      4. </dt>
+    <dd class='enumerate-enumitem'>Include and answer the following questions in your main post:
+      <ul class='itemize1'>
+        <li class='itemize'>
+          In
+          your
+          own
+          words,
+          deﬁne
+          language
+          and
+          nonverbal
+          communication.
+          How
+
+
+          is
+          the
+          nonverbal
+          communication
+          of
+          the
+          culture
+          you
+          researched
+          diﬀerent
+          from
+          nonverbal
+          communication
+          in
+          your
+          home
+          country’s
+          culture?
+          How
+          is
+          nonverbal
+          communication
+          similar
+          or
+          the
+          same?
+        </li>
+        <li class='itemize'>
+
+
+          What
+          are
+          the
+          diﬀerences
+          in
+          nonverbal
+          communication
+          between
+          genders
+          in
+          the
+          culture
+          you
+          researched?
+          If
+          there
+          are
+          no
+          diﬀerences,
+          why
+          do
+          you
+          feel
+          nonverbal
+          communication
+          between
+          genders
+          is
+          the
+
+
+          same?
+        </li>
+        <li class='itemize'>
+          What
+          was
+          the
+          most
+          surprising
+          diﬀerence
+          between
+          your
+          home
+          country’s
+          culture
+          and
+          the
+          country’s
+          culture
+          you
+          chose
+          to
+          from
+          this
+          Discussion
+          assignment?
+        </li>
+        <li class='itemize'>
+
+
+          Write
+          a
+          sidebar
+          (3–4
+          sentences)
+          that
+          could
+          be
+          highlighted
+          on
+          the
+          Travel
+          Channel’s
+          website
+          for
+          readers
+          traveling
+          to
+          the
+          country
+          you
+          researched
+          on
+          how
+          they
+          should
+          greet
+          a
+          stranger
+
+
+          from
+          the
+          other
+          culture.
+          Include
+          at
+          least
+          three
+          tips.
+          Consider
+          questions
+          such
+          as,
+          should
+          they
+          bow?
+          Wave?
+          Oﬀer
+          their
+          hand
+          to
+          shake?
+          Would
+          they
+          greet
+          a
+          man
+          diﬀerently
+          than
+
+
+          a
+          woman?
+          How
+          close
+          should
+          they
+          stand?
+          Should
+          they
+          smile?</li>
+      </ul>
+    </dd>
+  </dl>
+  <!-- l. 154 -->
+  <p class='noindent'>
+
+
+  </p>
+  <h4 class='subsectionHead'><a id='x1-5000'></a>Language and Non-Verbal Communication</h4>
+  <!-- l. 156 -->
+  <p class='noindent'>
+  </p>
+  <h5 class='subsubsectionHead'><a id='x1-6000'></a>Deﬁning Language</h5>
+  <!-- l. 157 -->
+  <p class='noindent'>Language, at its easiest deﬁnition, is a collection of the syntax rules and vocabulary with which
+    we
+    speak verbally to one-another.
+  </p>
+  <h5 class='subsubsectionHead'><a id='x1-7000'></a>Deﬁning Non-verbal communication</h5>
+  <!-- l. 160 -->
+  <p class='noindent'>Non-verbal communication is when we use any other action other than speaking words to generate
+    meaning or express an idea (<span class='ptmri8t-x-x-120'>Communication in the Real World</span>, <a
+      href='#cite.0@noauthor_communication_2013'>2013</a>, pp. 224).
+  </p><!-- l. 164 -->
+  <p class='noindent'>
+  </p>
+  <h4 class='subsectionHead'><a id='x1-8000'></a>The People of Japan’s Communication</h4>
+  <!-- l. 165 -->
+  <p class='noindent'>
+  </p>
+  <h5 class='subsubsectionHead'><a id='x1-9000'></a>How Japan Communicates Non-Verbally</h5>
+  <!-- l. 166 -->
+  <p class='noindent'>Placeholder.
+  </p>
+  <h5 class='subsubsectionHead'><a id='x1-10000'></a>Comparing Non-Verbal Communication in Japan and the U.S.A.</h5>
+  <!-- l. 168 -->
+  <p class='noindent'>The non-verbal communication cues utilized by Americans and Japanese residents is not <span
+      class='ptmri8t-x-x-120'>completely</span>
+
+
+    divergent. For example, with facial expressions, us two cultures tend to share similar representations
+    of negative emotions (LaFrance &amp; Mayo, <a href='#cite.0@lafrance_cultural_1978'>1978</a>, pp. 75). There are
+    still some diﬀerences in in how we
+    express many other emotions, including negative ones. In Japan, it is noted that when someone is
+    annoyed they may represent this with a “Pan Am Smile” (the <span class='ptmri8t-x-x-120'>opposite </span>of a
+    genuine smile of
+    happiness — called the “Duchenne Smile”). It is said that this is for the annoyed listener
+    to display the fortitude of their inner strength and control (LaFrance &amp; Mayo, <a
+      href='#cite.0@lafrance_cultural_1978'>1978</a>, pp.
+    76).
+  </p>
+  <h5 class='subsubsectionHead'><a id='x1-11000'></a>Gender’s Role In Non-Verbal Communication in Japan</h5>
+  <!-- l. 181 -->
+  <p class='noindent'>While Japan does have many diﬀerent masculine and feminine pronouns, the focus is not necessarily
+    <span class='ptmri8t-x-x-120'>entirely </span>on gender. The primary hierarchy in Japan is instead mostly concerned
+    with <span class='ptmb8t-x-x-120'>senority</span>. This is
+    not to say just within the business world, in which it is prevelant, but also in the grammar rules
+    engrained in the Japanese language. The concept “Senpai and Kohai” is the “Senior and Junior”
+    relationship which, while most prevelant in schools, is seen <span class='ptmri8t-x-x-120'>everywhere </span>around
+    Japan.
+    It is essentially the idea of respecting our elders taken to such an extreme that is now a
+    permanent part of Japanese culture, as it has been for centuries (Potts &amp; Kawahara, <a
+      href='#cite.0@potts_japanese_nodate'>n.d.</a>, pp.
+    253).
+  </p>
+  <h5 class='subsubsectionHead'><a id='x1-12000'></a>Conclusion</h5>
+  <!-- l. 193 -->
+  <p class='noindent'><span class='paragraphHead'><a id='x1-13000'></a><span class='ptmb8t-x-x-120'>The Most Surprising
+        Diﬀerences Between Japan and the U.S.A.</span></span>
+    I believe on the most surprising diﬀerences between the cultures of the United States of America and
+    that of Japan would have to be the level of hierarchy we notice in Japan. Working in the Marijuana
+    industry here in Colroado, we see the opposite of what is standard in Japan due to how <span
+      class='ptmri8t-x-x-120'>young </span>our
+    industry is. It is not all that uncommon to see the owner or general manager of a retail location in this
+    industry <span class='ptmb8t-x-x-120'>incredibly young</span>, usually in their late 20s and early 30s. Many times,
+    for the companies I
+
+
+    have worked for, I have coworkers and peers that are twice my age while our manager will be in their
+    mid twenties. In Japan, they even have a system in use at some companies where promotions and
+    pay raises are given out “based on one’s proximity to retirement” (LaFrance &amp; Mayo,
+    <a href='#cite.0@lafrance_cultural_1978'>1978</a>).
+  </p><!-- l. 208 -->
+  <p class='noindent'>
+  </p>
+  <h4 class='subsectionHead'><a id='x1-14000'></a>How to Communicate whilst Traveling to Japan</h4>
+  <!-- l. 210 -->
+  <p class='noindent'>
+  </p>
+  <dl class='enumerate-enumitem'>
+    <dt class='enumerate-enumitem'>
+      1. </dt>
+    <dd class='enumerate-enumitem'>
+      Ensure
+      you
+      know
+      your
+      “role”
+      in
+      comparison
+      to
+      the
+      person
+      you
+      are
+      speaking
+      with.
+      The
+      easiest
+      way
+
+
+      to
+      do
+      this
+      is
+      to
+      ask
+      for
+      a
+      business
+      card
+      or
+      hear
+      how
+      your
+      peers
+      address
+      that
+      person.
+    </dd>
+    <dt class='enumerate-enumitem'>
+      2. </dt>
+    <dd class='enumerate-enumitem'>
+      Bowing
+      is
+      an
+      incredibly
+      important
+      practice
+      in
+      use
+
+
+      in
+      Japan,
+      especially
+      for
+      formal
+      meeting
+      scenarios
+      (school,
+      work,
+      loved
+      one’s
+      parents).
+    </dd>
+    <dt class='enumerate-enumitem'>
+      3. </dt>
+    <dd class='enumerate-enumitem'>
+      In
+      the
+      United
+      States
+      we
+      tend
+      to
+      think
+      of
+      the
+      most
+      senior/important
+      person
+      speaking
+
+
+      ﬁrst,
+      but
+      in
+      Japan,
+      the
+      most
+      senior
+      and/or
+      most
+      important
+      person
+      is
+      who
+      tends
+      to
+      speak
+      last
+      in
+      a
+      group.</dd>
+  </dl>
+  <!-- l. 229 -->
+  <p class='noindent'>
+
+
+  </p>
+  <h3 class='sectionHead'><a id='x1-15000'></a>References</h3>
+  <p><a id='Q1-1-16'></a></p>
+  <!-- l. 234 -->
+  <p class='noindent'>
+  </p>
+  <dl class='thebibliography'>
+    <dt id='X0-noauthor_communication_2013' class='thebibliography'>
+    </dt>
+    <dd id='bib-1' class='thebibliography'>
+      <!-- l. 234 -->
+      <p class='noindent'><a id='cite.0@noauthor_communication_2013'></a><span class='ptmri8t-x-x-120'>Communication
+        </span><span class='ptmri8t-x-x-120'>in
+        </span><span class='ptmri8t-x-x-120'>the
+        </span><span class='ptmri8t-x-x-120'>real
+        </span><span class='ptmri8t-x-x-120'>world</span>.
+        (2013).
+        Saylor
+        Academy.
+      </p>
+    </dd>
+    <dt id='X0-lafrance_cultural_1978' class='thebibliography'>
+    </dt>
+    <dd id='bib-2' class='thebibliography'>
+      <!-- l. 234 -->
+      <p class='noindent'><a id='cite.0@lafrance_cultural_1978'></a>LaFrance, M.,
+        &amp;
+        Mayo, C.
+        (1978).
+        Cultural
+        aspects
+        of
+        nonverbal
+        communication.
+        <span class='ptmri8t-x-x-120'>International
+
+
+        </span><span class='ptmri8t-x-x-120'>Journal
+        </span><span class='ptmri8t-x-x-120'>of
+        </span><span class='ptmri8t-x-x-120'>Intercultural
+        </span><span class='ptmri8t-x-x-120'>Relations</span>,
+        <span class='ptmri8t-x-x-120'>2</span>(1),
+        71–89.
+        <a href='https://doi.org/10.1016/0147-1767(78)90029-9'><a class='url'
+            href='https://doi.org/10.1016/0147-1767(78)90029-9'>https://doi.org/10.1016/0147-1767(78)90029-9</a></a>
+      </p>
+    </dd>
+    <dt id='X0-potts_japanese_nodate' class='thebibliography'>
+    </dt>
+    <dd id='bib-3' class='thebibliography'>
+      <!-- l. 234 -->
+      <p class='noindent'><a id='cite.0@potts_japanese_nodate'></a>Potts, C.,
+        &amp;
+        Kawahara, S.
+        (n.d.).
+        Japanese
+        honoriﬁcs
+        as
+        emotive
+        deﬁnite
+        descriptions,
+        18.</p>
+    </dd>
+  </dl>
+  <!-- l. 237 -->
+  <p class='noindent'>
+
+
+  </p>
+  <h3 class='sectionHead'><a id='x1-16000'></a>Additional References</h3>
+  <p><a id='Q1-1-18'></a></p>
+  <!-- l. 243 -->
+  <p class='noindent'>
+  </p>
+  <dl class='thebibliography'>
+    <dt id='X0-anonymous_changing_1999' class='thebibliography'>
+    </dt>
+    <dd id='bib-4' class='thebibliography'>
+      <!-- l. 243 -->
+      <p class='noindent'><a id='cite.0@anonymous_changing_1999'></a>Anonymous.
+        (1999).
+        Changing
+        the
+        meaning
+        [Num
+        Pages:
+        1
+        Place:
+        New
+        York,
+        United
+        States,
+        New
+        York
+        Publisher:
+        Scholastic
+        Inc.].
+        <span class='ptmri8t-x-x-120'>Scholastic
+        </span><span class='ptmri8t-x-x-120'>Scope;
+        </span><span class='ptmri8t-x-x-120'>New
+
+
+        </span><span class='ptmri8t-x-x-120'>York</span>,
+        5.
+        Retrieved
+        November
+        25,
+        2020,
+        from
+        <a class='url'
+          href='http://search.proquest.com/docview/212882310/abstract/C3A790633282487CPQ/1'>http://search.proquest.com/docview/212882310/abstract/C3A790633282487CPQ/1</a>
+      </p>
+    </dd>
+    <dt id='X0-apatow_this_2012' class='thebibliography'>
+    </dt>
+    <dd id='bib-5' class='thebibliography'>
+      <!-- l. 243 -->
+      <p class='noindent'><a id='cite.0@apatow_this_2012'></a>Apatow, J.
+        (2012).
+        <span class='ptmri8t-x-x-120'>This
+        </span><span class='ptmri8t-x-x-120'>is
+        </span><span class='ptmri8t-x-x-120'>40</span>.
+        Apatow
+        Productions.
+      </p>
+    </dd>
+    <dt id='X0-noauthor_business_nodate' class='thebibliography'>
+    </dt>
+    <dd id='bib-6' class='thebibliography'>
+      <!-- l. 243 -->
+      <p class='noindent'><a id='cite.0@noauthor_business_nodate'></a><span class='ptmri8t-x-x-120'>Business
+        </span><span class='ptmri8t-x-x-120'>communication
+        </span><span class='ptmri8t-x-x-120'>for
+        </span><span class='ptmri8t-x-x-120'>success</span>.
+        (n.d.).
+        Saylor
+        Academy.
+
+
+      </p>
+    </dd>
+    <dt id='X0-noauthor_college_nodate' class='thebibliography'>
+    </dt>
+    <dd id='bib-7' class='thebibliography'>
+      <!-- l. 243 -->
+      <p class='noindent'><a id='cite.0@noauthor_college_nodate'></a><span class='ptmri8t-x-x-120'>College
+        </span><span class='ptmri8t-x-x-120'>success</span>.
+        (n.d.).
+        Saylor
+        Academy.
+      </p>
+    </dd>
+    <dt id='X0-cuddy_your_2012' class='thebibliography'>
+    </dt>
+    <dd id='bib-8' class='thebibliography'>
+      <!-- l. 243 -->
+      <p class='noindent'><a id='cite.0@cuddy_your_2012'></a>Cuddy, A.
+        (2012,
+        June).
+        <span class='ptmri8t-x-x-120'>Your
+        </span><span class='ptmri8t-x-x-120'>body
+        </span><span class='ptmri8t-x-x-120'>language
+        </span><span class='ptmri8t-x-x-120'>may
+        </span><span class='ptmri8t-x-x-120'>shape
+        </span><span class='ptmri8t-x-x-120'>who
+        </span><span class='ptmri8t-x-x-120'>you
+        </span><span class='ptmri8t-x-x-120'>are</span>.
+        Retrieved
+        November
+        25,
+        2020,
+        from
+        <a class='url'
+          href='https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are'>https://www.ted.com/talks/amy_cuddy_your_body_language_may_shape_who_you_are</a>
+
+
+      </p>
+    </dd>
+    <dt id='X0-paturel_talk_2012' class='thebibliography'>
+    </dt>
+    <dd id='bib-9' class='thebibliography'>
+      <!-- l. 243 -->
+      <p class='noindent'><a id='cite.0@paturel_talk_2012'></a>Paturel, A.
+        (2012).
+        Talk
+        to
+        me,
+        baby!
+        [Num
+        Pages:
+        2
+        Place:
+        New
+        York,
+        United
+        States,
+        New
+        York
+        Publisher:
+        Meredith
+        Corporation].
+        <span class='ptmri8t-x-x-120'>Baby
+        </span><span class='ptmri8t-x-x-120'>Talk;
+        </span><span class='ptmri8t-x-x-120'>New
+        </span><span class='ptmri8t-x-x-120'>York</span>,
+        <span class='ptmri8t-x-x-120'>77</span>(9),
+        46–47.
+        Retrieved
+
+
+        November
+        25,
+        2020,
+        from
+        <a class='url'
+          href='http://search.proquest.com/socialsciencepremium/docview/1317918872/abstract/797EEBD7A6EC4522PQ/1'>http://search.proquest.com/socialsciencepremium/docview/1317918872/abstract/797EEBD7A6EC4522PQ/1</a>
+      </p>
+    </dd>
+    <dt id='X0-safdar_variations_2009' class='thebibliography'>
+    </dt>
+    <dd id='bib-10' class='thebibliography'>
+      <!-- l. 243 -->
+      <p class='noindent'><a id='cite.0@safdar_variations_2009'></a>Safdar, S.,
+        Friedlmeier, W.,
+        Matsumoto, D.,
+        Yoo, S. H.,
+        Kwantes, C. T.,
+        Kakai, H.,
+        &amp;
+        Shigemasu, E.
+        (2009).
+        Variations
+        of
+        emotional
+        display
+        rules
+        within
+        and
+        across
+        cultures:
+        A
+        comparison
+        between
+
+
+        canada,
+        USA,
+        and
+        japan.
+        <span class='ptmri8t-x-x-120'>Canadian
+        </span><span class='ptmri8t-x-x-120'>Journal
+        </span><span class='ptmri8t-x-x-120'>of
+        </span><span class='ptmri8t-x-x-120'>Behavioural
+        </span><span class='ptmri8t-x-x-120'>Science/Revue
+        </span><span class='ptmri8t-x-x-120'>canadienne
+        </span><span class='ptmri8t-x-x-120'>des
+        </span><span class='ptmri8t-x-x-120'>sciences
+        </span><span class='ptmri8t-x-x-120'>du
+        </span><span class='ptmri8t-x-x-120'>comportement</span>,
+        <span class='ptmri8t-x-x-120'>41</span>(1),
+        1–10.
+        <a href='https://doi.org/10.1037/a0014387'><a class='url'
+            href='https://doi.org/10.1037/a0014387'>https://doi.org/10.1037/a0014387</a></a></p>
+    </dd>
+  </dl>
+
+
+
+</body>
+
+</html>
